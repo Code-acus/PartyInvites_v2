@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PartyInvites_v2.Models;
 
 namespace PartyInvites_v2 
 {
@@ -9,9 +10,17 @@ namespace PartyInvites_v2
             return View();
         }
 
+        [HttpGet]
         public ViewResult RsvpForm() 
         {
             return View();
+        }
+
+        [HttpPost]
+        public ViewResult RsvpForm(GuestResponse guestResponse)
+        {
+            Repository.AddResponse(guestResponse);
+            return View("Thanks", guestResponse);
         }
     }
 }
