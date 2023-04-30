@@ -10,14 +10,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>ListResponses</title>
+    <title>Responses</title>
 </head>
 <body>
     <h2>Here is a list of the people attending the party</h2>
-        <table>
-            <thead>
-                <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
-            </thead>
-        </table>
+    <table>
+        <thead>
+            <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
+        </thead>
+        <tbody>
+            @foreach (PartyInvites_v2.Models.GuestResponse r in Model!)
+                {
+                    <tr>
+                        <td>@r.Name</td>
+                        <td>@r.Email</td>
+                        <td>@r.Phone</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
 </body>
 </html>
