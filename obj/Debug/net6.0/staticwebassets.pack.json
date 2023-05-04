@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
