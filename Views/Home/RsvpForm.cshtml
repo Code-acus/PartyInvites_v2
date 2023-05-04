@@ -18,18 +18,21 @@
     </head>
     <body>
         <form asp-action="RsvpForm" method="post">
-            <div asp-validation-summary="All"></div>
+            <div class="validation-summary-errors" asp-validation-summary="All"></div>
             <div>
                 <label asp-for="Name">Your name:</label>
                 <input asp-for="Name" />
+                <span class="field-validation-error" asp-validation-for="Name"></span>
             </div>
             <div>
                 <label asp-for="Email">Your email:</label>
                 <input asp-for="Email" />
+                <span class="field-validation-error" asp-validation-for="Email"></span>
             </div>
             <div>
                 <label asp-for="Phone">Your phone:</label>
                 <input asp-for="Phone" />
+                <span class="field-validation-error" asp-validation-for="Phone"></span>
             </div>
             <div>
                 <label asp-for="WillAttend">Will you attend?</label>
@@ -38,6 +41,7 @@
                     <option value="true">Yes, I will be attending</option>
                     <option value="false">No, I will not be attending</option>
                 </select>
+                <span class="field-validation-error" asp-validation-for="WillAttend"></span>
             </div>
             <button type="submit">Submit RSVP</button>
         </form>

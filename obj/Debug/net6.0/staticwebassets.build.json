@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2hgT866DkxfKm/bH4oE+aD1+WH0exHj7va0qYJEmv9g=",
+  "Hash": "RplIUXgPEBcYvS1fOb5Ku2iW7WeK3zrkSITYN2k5ZJE=",
   "Source": "PartyInvites_v2",
   "BasePath": "_content/PartyInvites_v2",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\css\\styles.css",
       "SourceId": "PartyInvites_v2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\",
       "BasePath": "_content/PartyInvites_v2",
-      "RelativePath": "css/style.css",
+      "RelativePath": "css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\hrogers.HFR\\VisualStudioProjects\\C#_ASP.NET\\PartyInvites_v2\\wwwroot\\favicon.ico",
